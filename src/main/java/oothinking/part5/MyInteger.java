@@ -71,4 +71,9 @@ public class MyInteger {
     public int hashCode() {
         return Objects.hash(value);
     }
+
+    public static void main(String[] args) {
+        MyInteger number = new MyInteger(7);
+        System.out.println(number.isPrime());
+    }
 }
