@@ -1,4 +1,4 @@
-package oothinking.ex.part5;
+package oothinking.part5;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
