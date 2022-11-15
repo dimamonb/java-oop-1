@@ -55,6 +55,6 @@ public class MyCharacter {
     public static char toLowerCase(char ch) {
         if(isDigit(ch)){
             return ch;
-        } else return (char) (ch ^ 0x20);
+        } else return (char) (ch | 0x20);
     }
 }

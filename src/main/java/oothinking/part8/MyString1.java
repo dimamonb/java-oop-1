@@ -9,7 +9,7 @@ public class MyString1 {
         this.chars = chars;
     }
     public char charAt(int index){
-        return chars[index-1];
+        return chars[index];
     }
     public int length(){
        return this.chars.length;
