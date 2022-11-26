@@ -35,8 +35,6 @@ public class ArrayListTest {
 
         System.out.println(max(list));
 
-        matrix();
-
     }
 
     public static Integer max(ArrayList<Integer> list) {
@@ -48,25 +46,5 @@ public class ArrayListTest {
         arrayList.add(new Loan());
     }
 
-    public static void matrix() {
-        Random generator = new Random();
-        Scanner in = new Scanner(System.in);
-        System.out.print("Введите размер матрицы: ");
-        int msize = in.nextInt();
-        int[][] arr = new int[msize][msize];
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                arr[i][j] = generator.nextInt(2);
-                System.out.print(arr[i][j]);
-            }
-            System.out.println();
-        }
-
-        int r1count = 0;
-        int c1count = 0;
-
-//        ArrayList<Integer> row = new ArrayList<>(matrixSize);
-//        ArrayList<Integer> col = new ArrayList<>(matrixSize);
-    }
 }
